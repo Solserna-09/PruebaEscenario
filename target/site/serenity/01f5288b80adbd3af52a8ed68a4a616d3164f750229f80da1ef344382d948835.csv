@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"login exitoso","login usuario exitoso","SUCCESS","2022-03-29T22:28:45.147-05:00[America/Bogota]","0.0","9.89"
+"login exitoso","login fallido","SUCCESS","2022-03-29T22:28:55.8-05:00[America/Bogota]","0.0","17.29"
+"login","login usuario exitoso","SUCCESS","2022-03-30T10:35:31.329-05:00[America/Bogota]","0.0","8.29"
+"login",":  login usuario fallido","SUCCESS","2022-03-30T10:35:40.442-05:00[America/Bogota]","0.0","30.44"
