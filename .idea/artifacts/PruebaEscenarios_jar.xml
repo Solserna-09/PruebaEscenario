@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PruebaEscenarios:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PruebaEscenarios_jar</output-path>
+    <root id="archive" name="PruebaEscenarios.jar" />
+  </artifact>
+</component>

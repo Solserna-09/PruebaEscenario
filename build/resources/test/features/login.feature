@@ -1,6 +1,6 @@
 #language: es
 
-@tags
+
 Característica: login
 
 

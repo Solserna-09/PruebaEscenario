@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="login" skipped="0" tests="1" time="9.16" timestamp="2022-03-31 09:07:37"><testcase name="login usuario exitoso"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="login" skipped="0" tests="1" time="8.21" timestamp="2022-08-02 08:28:45"><testcase name="login usuario exitoso"><error message="The following error occurred: unknown error: cannot determine loading status&#10;from unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SQAMED-PCC83112', ip: '172.31.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\pcc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:62886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8753b5564297a17428001208b01435bf&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SQAMED-PCC83112', ip: '172.31.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">The following error occurred: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-PCC83112', ip: '172.31.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\pcc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:62886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8753b5564297a17428001208b01435bf
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-PCC83112', ip: '172.31.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-PCC83112', ip: '172.31.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\pcc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:62886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8753b5564297a17428001208b01435bf
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-PCC83112', ip: '172.31.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: unknown&#13;
+com.demo.guru99.Steps.LoginStep.clicIngresar(LoginStep.java:28)&#13;
+com.demo.guru99.StepDefinitions.LoginStepDefinition.el_usuario_ingrese_las_credenciales(LoginStepDefinition.java:32)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

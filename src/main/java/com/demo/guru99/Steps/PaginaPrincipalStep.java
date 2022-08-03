@@ -13,5 +13,6 @@ public class PaginaPrincipalStep {
     public void validarMensaje (){
         Assert.assertThat(paginaPrincipalPageObject.getDriver()
                 .findElement(paginaPrincipalPageObject.getMsjValidacion()).isDisplayed(), Matchers.is(true));
+
     }
 }
