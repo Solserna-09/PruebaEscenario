@@ -5,14 +5,11 @@ import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
 
 
-
 public class AsientoVueloStepDefinition {
-
 
 
     @Dado("^el usuario ingrese a la opcion de vuelos$")
     public void elUsuarioIngreseALaOpcionDeVuelos() {
-
 
 
     }

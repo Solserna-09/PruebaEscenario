@@ -26,7 +26,7 @@ public class LoginStepDefinition {
     }
 
     @Cuando("^el usuario ingrese las credenciales$")
-    public void el_usuario_ingrese_las_credenciales(List<DatosAcceso>lista) {
+    public void el_usuario_ingrese_las_credenciales(List<DatosAcceso> lista) {
         loginStep.escribirUsuario(lista.get(0).getUsuario());
         loginStep.escribirClave(lista.get(0).getClave());
         loginStep.clicIngresar();
@@ -39,16 +39,14 @@ public class LoginStepDefinition {
         paginaPrincipalStep.validarMensaje();
 
 
-
     }
 
     @Cuando("^el usuario ingrese las credenciales incorrectas$")
-    public void elUsuarioIngreseLasCredencialesIncorrectas(List<DatosAcceso>lista) {
+    public void elUsuarioIngreseLasCredencialesIncorrectas(List<DatosAcceso> lista) {
         loginStep.abrirNavegador();
         loginStep.escribirUsuario(lista.get(0).getUsuario());
         loginStep.escribirClave(lista.get(0).getClave());
         loginStep.clicIngresar();
-
 
 
     }
@@ -58,7 +56,6 @@ public class LoginStepDefinition {
     public void elVisualizaraQueNoPuedeIniciarSesion() {
 
     }
-
 
 
 }
